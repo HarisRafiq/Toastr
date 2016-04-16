@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+     <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"     android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+    <PreferenceCategory android:title="Display Settings" >
+
+    <ListPreference     android:title="Layout Style"
+            android:summary="Select the kind of layout you like List/Grid"
+            android:key="layoutType"
+            android:defaultValue="1"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+
+</PreferenceCategory>
+    <PreferenceCategory android:title="Filter Settings">
+
+    <ListPreference     android:title="Sort By"
+        android:summary="Filter galleries by sorting from  Top, Time, Rising"
+        android:key="sortType"
+        android:defaultValue="1"
+        android:entries="@array/sortingArray"
+        android:entryValues="@array/sortingValues" />
+
+        <CheckBoxPreference android:title="Show Viral"
+            android:defaultValue="false"
+            android:summary="This option if selected will allow the application to include Viral Content"
+            android:key="viral_enabled" />
+</PreferenceCategory>
+    <PreferenceCategory android:title="About">
+        <Preference
+            android:selectable="false"
+            android:enabled="true"
+            android:key="example_key"
+            android:title="Toastr"
+            android:summary="Version 1.0\nBuild 23.0.2\nHaris Rafiq\nmrafi0015@gmail.com" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+

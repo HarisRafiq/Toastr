@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+    <item name="1">ListView</item>
+    <item name="2">GridView</item>
+</string-array>
+    <string-array name="listValues">
+        <item name="1">true</item>
+        <item name="2">false</item>
+
+    </string-array>
+    <string-array name="sortingArray">
+         <item>Top</item>
+        <item>Rising</item>
+        <item>Time</item>
+    </string-array>
+    <string-array name="sortingValues">
+         <item>top</item>
+        <item>rising</item>
+        <item>time</item>
+    </string-array>
+
+</resources>

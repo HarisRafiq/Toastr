@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toastr</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="name_text">Haris Rafiq</string>
+    <string name="email_text">mrafi0015@gmail.com</string>
+    <string name="version_text">Show NSFW posts</string>
+    <string name="build_text">Show NSFW posts</string>
+
+
+</resources>
